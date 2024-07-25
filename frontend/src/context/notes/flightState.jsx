@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import flightContext from "./flightContext";
 
 const FlightState = (props) => {
-  const host = "http://localhost:5000";
+  const host = "https://flightsystemvite-backend.onrender.com";
   const flightsInitial = [];
 
   const [flights, setFlights] = useState(flightsInitial);
